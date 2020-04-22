@@ -9,5 +9,6 @@
     $query = $connection
         ->query("SELECT `ID`, `Theme`, `Short`, `View`, `IMG`, `created_at`, `Count` FROM `yangiliklar`  WHERE `ID`=".$id);
     $news = $query->fetch();
+    echo "12345";
 ?>
         
